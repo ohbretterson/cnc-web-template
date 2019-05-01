@@ -1,0 +1,116 @@
+/* > Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800|Sumana');
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+
+/* > Colors */
+.gold {
+  color: #D4A029;
+}
+
+.gold-bg {
+  background-color: #D4A029;
+}
+
+.blue {
+  color: #40729B;
+}
+
+.blue-bg {
+  background-color: #40729B;
+}
+
+.green {
+  color: #5B9B98;
+}
+
+.green-bg {
+  background-color: #5B9B98;
+}
+
+.grey {
+  color: #808285;
+}
+
+.grey-bg {
+  background-color: #808285;
+}
+
+/* > Buttons */
+.btn {
+  background: #29618C;
+  padding: .2rem 2.6rem;
+  font-weight: normal;
+  transition: 0.5s ease all;
+  border: 1px solid #29618C;
+  font-size: .8rem;
+  border-radius: 23px;
+  color: white;
+  font-weight: 200;
+}
+
+.btn:hover {
+  color: #29618C;
+  background: transparent;
+}
+
+.blue-btn-reverse {
+  background: transparent;
+  color: #29618C;
+}
+
+.blue-btn-reverse:hover {
+  background: #29618C;
+  color: white;
+}
+
+/* > General */
+html, body {
+  height: 100%;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Sumana', serif;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+/*
+
+<div class="container-fluid">
+			<div class="row">
+				<div class="col-3 colorBar"></div>
+				<div class="col-3 colorBar"></div>
+				<div class="col-3 colorBar"></div>
+				<div class="col-3 colorBar"></div>
+			</div>
+		</div>
+
+
+*/
+
+.colorBar {
+  background-color: #D4A029;
+  border: 2px solid white;
+  height: 20px;
+}
+
+.colorBar:nth-child(1), .colorBar:nth-child(2), .colorBar:nth-child(3) {
+  border-right: 0 solid white;
+}
+
+.colorBar:nth-child(2) {
+  background-color: #40729B;
+}
+
+.colorBar:nth-child(3) {
+  background-color: #5B9B98;
+}
+
+.colorBar:nth-child(4) {
+  background-color: #808285;
+}
