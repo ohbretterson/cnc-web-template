@@ -1,6 +1,12 @@
 /* > Fonts */
+
+/* Use if app connects to internet */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800|Sumana');
 @import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+
+/* Uncomment if no internet connection may be possible  */
+/* @import url('fonts/fonts.css'); */
+
 
 /* > Colors */
 .gold {
