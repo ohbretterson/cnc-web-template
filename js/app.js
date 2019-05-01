@@ -1,1 +1,1 @@
-// Get crazy with it
+// Go and DRY it out
